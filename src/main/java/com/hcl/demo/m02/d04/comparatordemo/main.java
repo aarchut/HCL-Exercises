@@ -5,7 +5,7 @@ import java.util.Collections;
 
 public class main {
 	
-	public static void main(String[] args) {
+	public main(String[] args) {
 		ArrayList<Patient> list = new ArrayList<Patient>();
 		list.add(new Patient("A245BFD", "Emily",35 ));
 		list.add(new Patient("C7323GH", "Alex", 58));

@@ -1,5 +1,4 @@
 package com.hcl.demo.m02.d04.comparatordemo;
-import java.io.*;
 import java.util.Comparator;
 
 

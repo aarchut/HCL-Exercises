@@ -1,14 +1,14 @@
+package com.hcl.demo.m02.d02;
 import java.util.Scanner;
 
 public class StringLength {
 	public static void main(String [] args) {
 		
-		int i =0; 
 		String str; 
-		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter full name without any spaces, capitilazing the beginning of first, last and middle name: ");
-		str = sc.nextLine();
-		
+		try (Scanner sc = new Scanner(System.in)) {
+			System.out.println("Enter full name without any spaces, capitilazing the beginning of first, last and middle name: ");
+			str = sc.nextLine();
+		}
 		try {
 		int x = str.length();
 		if(x < 20) {
@@ -29,10 +29,14 @@ public class StringLength {
 		    
          if(Character.isUpperCase(str.charAt(n))){    
          System.out.print(str.charAt(n));
+} 
+     
 }
+	 
 
-	}
+	
 	 }
+	
 	 }
 
 	
